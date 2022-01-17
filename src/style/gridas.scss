@@ -1,0 +1,111 @@
+section {
+  .gridas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+
+    .gridas-1 {
+      background-image: url(../img/foto-1.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+      transition: 0.5s;
+      z-index: 2;
+      h1 {
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+      }
+      p {
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+      }
+    }
+
+    .gridas-1:hover {
+      h1 {
+        opacity: 1;
+      }
+      p {
+        opacity: 1;
+      }
+    }
+
+    .gridas-2 {
+      background-image: url(../img/foto-2.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-3 {
+      background-image: url(../img/foto-3.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-4 {
+      background-image: url(../img/foto-4.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-5 {
+      background-image: url(../img/foto-5.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-6 {
+      background-image: url(../img/foto-6.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-7 {
+      background-image: url(../img/foto-7.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-8 {
+      background-image: url(../img/foto-8.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+    .gridas-9 {
+      background-image: url(../img/foto-9.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 50px;
+    }
+  }
+}

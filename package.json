@@ -1,0 +1,34 @@
+{
+  "name": "jquerysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.47.0"
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.2.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "imagemin-jpegtran": "^7.0.0",
+    "jquery": "^3.6.0"
+  }
+}

@@ -1,0 +1,45 @@
+header {
+  .pavadinimas {
+    margin: 30px 0 0 100px;
+  }
+
+  nav {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .mygtukas {
+      padding: 10px;
+      background-color: #028799;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 10%;
+      margin-bottom: 100px;
+    }
+
+    .listas-1 {
+      padding-top: 30px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      width: 40%;
+      position: absolute;
+      top: 250px;
+
+      li {
+        text-transform: uppercase;
+
+        a {
+          text-decoration: none;
+          color: #555;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
