@@ -1,5 +1,6 @@
 section {
   .gridas {
+    margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
@@ -11,28 +12,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
       transition: 0.5s;
-      z-index: 2;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
       h1 {
+        z-index: 5;
         text-align: center;
         transition: 0.5s;
         opacity: 0;
+        color: #fff;
+        font-size: 20px;
       }
       p {
+        z-index: 5;
         text-align: center;
         opacity: 0;
         transition: 0.5s;
+        color: #fff;
       }
+    }
+    .gridas-1::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
     }
 
     .gridas-1:hover {
       h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
         opacity: 1;
       }
       p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
         opacity: 1;
       }
+    }
+
+    .gridas-1:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
 
     .gridas-2 {
@@ -42,8 +79,66 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
     }
+    .gridas-2::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-2:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-2:hover::after {
+      z-index: 1;
+      opacity: 1;
+    }
+
     .gridas-3 {
       background-image: url(../img/foto-3.jpg);
       background-repeat: no-repeat;
@@ -51,8 +146,66 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
     }
+    .gridas-3::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-3:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-3:hover::after {
+      z-index: 1;
+      opacity: 1;
+    }
+
     .gridas-4 {
       background-image: url(../img/foto-4.jpg);
       background-repeat: no-repeat;
@@ -60,8 +213,66 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
     }
+    .gridas-4::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-4:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-4:hover::after {
+      z-index: 1;
+      opacity: 1;
+    }
+
     .gridas-5 {
       background-image: url(../img/foto-5.jpg);
       background-repeat: no-repeat;
@@ -69,7 +280,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
+    }
+    .gridas-5::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-5:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-5:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
     .gridas-6 {
       background-image: url(../img/foto-6.jpg);
@@ -78,7 +346,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
+    }
+    .gridas-6::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-6:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-6:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
     .gridas-7 {
       background-image: url(../img/foto-7.jpg);
@@ -87,7 +412,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
+    }
+    .gridas-7::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-7:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-7:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
     .gridas-8 {
       background-image: url(../img/foto-8.jpg);
@@ -96,7 +478,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
+    }
+    .gridas-8::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-8:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-8:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
     .gridas-9 {
       background-image: url(../img/foto-9.jpg);
@@ -105,7 +544,64 @@ section {
       background-size: cover;
       height: 100%;
       width: 100%;
-      padding: 50px;
+      padding: 100px;
+      transition: 0.5s;
+      position: relative;
+
+      .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+        align-items: center;
+      }
+
+      h1 {
+        z-index: 5;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        color: #fff;
+        font-size: 20px;
+      }
+      p {
+        z-index: 5;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+      }
+    }
+    .gridas-9::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 432px;
+      height: 322px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    .gridas-9:hover {
+      h1 {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+      p {
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        opacity: 1;
+      }
+    }
+
+    .gridas-9:hover::after {
+      z-index: 1;
+      opacity: 1;
     }
   }
 }
