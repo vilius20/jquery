@@ -1,7 +1,6 @@
 {
   "name": "jquerysite",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,5 +29,14 @@
     "bootstrap-icons": "^1.7.2",
     "imagemin-jpegtran": "^7.0.0",
     "jquery": "^3.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilius20/jquery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vilius20/jquery/issues"
+  },
+  "homepage": "https://github.com/vilius20/jquery#readme",
+  "description": ""
 }
